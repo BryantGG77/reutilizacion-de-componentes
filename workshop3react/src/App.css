@@ -1,0 +1,104 @@
+.container-father {
+  height: 100px;
+  width: 90vw;
+  padding: 16px;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 8px;
+  margin-top: 10px;
+  background-color: white;
+  border: 1px solid #e9ecee;
+}
+
+.container-father:hover {
+  -webkit-box-shadow: 0px 18px 20px -5px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0px 18px 20px -5px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 18px 20px -5px rgba(0, 0, 0, 0.15);
+}
+
+.container-grandpa {
+  background-color: #f8f9fa;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.container-left {
+  width: 10%;
+  height: 100%;
+}
+
+.container-right {
+  width: 90%;
+  height: 100%;
+}
+
+.container-right-top,
+.container-right-bottom {
+  display: flex;
+  width: 100%;
+  height: 50%;
+  flex-direction: row;
+  align-items: center;
+}
+
+.container-right-bottom {
+  display: flex;
+  justify-content: start;
+}
+
+.subCategorias {
+  padding-left: 20px;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  margin-bottom: 4px;
+  gap: 1px;
+}
+
+.btn-job {
+  cursor: pointer;
+  border: none;
+  background-color: white;
+}
+
+.subCategoria-item {
+  font-size: 12px;
+  margin-right: 5px;
+  border-radius: 20px;
+  border: 1px solid black;
+  padding: 5px;
+}
+
+.img {
+  width: 40%;
+  height: 100%;
+}
+
+.parraph {
+  width: 220px;
+  margin-right: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  font-size: 15px;
+}
+
+.emoji {
+  font-size: 18px;
+  color: #434343;
+}
+
+.btn {
+  cursor: pointer;
+  margin-right: 2px;
+  background-color: white;
+  border-radius: 8px;
+  padding: 1px 5px;
+  border: none;
+  border: 1px solid #434343;
+}
